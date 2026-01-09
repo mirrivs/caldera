@@ -1,5 +1,5 @@
 aiohttp-jinja2==1.5.0
-aiohttp==3.8.4
+aiohttp==3.13.3
 aiohttp_session==2.9.0
 aiohttp-security==0.4.0
 aiohttp-apispec==2.2.3
@@ -27,3 +27,4 @@ asyncssh==2.11.0
 aioftp~=0.20.0; python_version >= '3.7'
 aioftp==0.16.1; python_version < '3.7'
 pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
